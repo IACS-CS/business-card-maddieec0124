@@ -1,10 +1,44 @@
 /* Your code here */
- <main class="card landscape card-1">
- {background-color:antiquewhite}
-h1 {font-size: 20px
-}
-h2 {font: size 30px;
-}
+ .card-1 img{
+  width: 1in;
+ }
+ .top-banner{
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 25pt;
+  border-bottom: 2px solid #222;
+  background-color: rgb(110, 107, 61);
+  color: rgb(26, 36, 9);
+ }
+ .left{
+  display: inline-block
+  width: 45%;
+  box-sizing: border-box;
+  font-size: 15px;
+  
+ }
+ .right{
+  display: inline-block
+  width: 40%;
+   box-sizing: border-box;
+   border-left: 4px solid;
+   padding-left: 1em;
+ }
+ .bottom{
+  padding: 1em;
+ }
+ .contact{
+  margin-top: 1em
+ }
+ .name{
+  font-weight:bold;
+  font-size: 120%;
+ }
+ .tagline{
+  font-style: italic;
+ }
+ .motto{
+  font-style: italic;
 
-
- </main>
+ }
