@@ -68,28 +68,19 @@ font-style: italic;
   font-style: italic;
 
  }
-/* Main card styling */
-.card {
-  width: 350px;
-  height: 200px;
-  background-color: rgb(187, 183, 129); /* beige background */
-  
-  padding: 20px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: 'Cormorant Garamond', serif; /* Body text font */
-}
 
-/* Header section styling */
+.card {
+ 
+  background-color: rgb(187, 183, 129); 
+  font-family: 'Cormorant Garamond', serif; 
+}
 .header {
   text-align: center;
   flex-grow: 1;
 }
 
 .header h1 {
-  color: rgb(26, 36, 9); /* dark color */
+  color: rgb(26, 36, 9); 
   font-size: 24px;
   font-family: 'Qwitcher Grypen', cursive;
   font-weight: bold;
@@ -97,14 +88,14 @@ font-style: italic;
 }
 
 .header h2 {
-  color: rgb(110, 107, 61); /* greenish brown */
+  color: rgb(110, 107, 61); 
   font-size: 16px;
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
   margin: 5px 0;
 }
 
-/* Image section styling */
+
 .image-section {
   flex-grow: 2;
   display: flex;
@@ -118,13 +109,13 @@ font-style: italic;
   border-radius: 50%;
 }
 
-/* Bottom bar styling */
+
 .bottom-bar {
   display: flex;
   justify-content: space-between;
   background-color: rgb(110, 107, 61); /* greenish brown */
   color: white;
-  padding: 10px;
+  padding: 5px;
   
 }
 
@@ -135,11 +126,7 @@ font-style: italic;
 }
 
 .contact span {
-  font-size: 12px;
+  font-size: 15px;
   margin-bottom: 5px;
 }
 
-.qr-code img {
-  width: 40px;
-  height: 40px;
-}
